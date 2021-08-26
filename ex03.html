@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var num1 = prompt('Digite o valor 01: ')
+        var ope = prompt('Digite a operação: \nx : Multiplicação \n/ : Divisão \n+ : Soma \n- : Subtração ')
+        var num2 = prompt('Digite o valor 02: ')
+        var res;
+
+        if (ope == 'x') {
+            alert(Number(num1) * Number(num2))
+        } else if (ope == '/') {
+            alert(Number(num1) / Number(num2))
+        } else if (ope == '-') {
+            alert(Number(num1) - Number(num2))
+        } else if (ope == '+') {
+            alert(Number(num1) + Number(num2))
+        } else {
+            alert('[ERRO]')
+        }
+    </script>
+</head>
+<body>    
+</body>
+</html>
